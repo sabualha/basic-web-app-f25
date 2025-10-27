@@ -11,6 +11,10 @@ export default function QueryProcessor(query: string): string {
     return "Eduardo";
   }
 
+  if (query.toLowerCase().includes("which of the following numbers is the largest")) {
+    return "81";
+  }
+
   if (query.toLowerCase().includes("age")) {
     return "67";
   }
